@@ -129,4 +129,4 @@ socks5://user:pass@server:port
 
 ## 🌟 特别鸣谢
 
-在此感谢 [XCQ0607/Xserver_script](https://github.com/XCQ0607/Xserver_script) 项目提供的签到思路。
+在此感谢 [XCQ0607/Xserver_script](https://github.com/XCQ0607/Xserver_script) 项目提供的nodejs签到思路。
