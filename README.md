@@ -1,4 +1,4 @@
-# XServer 游戏服务器自动续签
+# XServer 游戏服务器自动续签（多账号随机乱序版）
 
 自动延长 XServer Game VPS 实例期限，支持多账号、代理和 Telegram 通知。
 
