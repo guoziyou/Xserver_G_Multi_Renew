@@ -128,6 +128,7 @@ function updateNextCheckDate(daysLater, reason) {
 
 async function tryRenew(page, beforeMins) {
   try {
+    console.log('🔄 滚动到页面底部...'); await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight)); await page.waitForTimeout(2000);
     await page.getByRole('link', { name: '期限を延長する' }).waitFor({ state: 'visible', timeout: 5000 });
     await page.getByRole('link', { name: '期限を延長する' }).click();
     await page.waitForLoadState('load');
