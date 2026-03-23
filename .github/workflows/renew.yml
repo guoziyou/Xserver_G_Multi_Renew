@@ -2,8 +2,7 @@ name: XServer Extend (Node.js Matrix)
 
 于:
   schedule:
-    - cron: '0 22 * * *' # 06:00 AM Beijing (UTC+8)
-    - cron: '0 10 * * *' # 06:00 AM Beijing (UTC+8)
+    - cron: '0 10,22 * * *' # 06:00 AM Beijing (UTC+8)
   workflow_dispatch:
 
 permissions:
