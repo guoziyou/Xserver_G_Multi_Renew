@@ -1,6 +1,6 @@
 name: XServer Extend (Node.js Matrix)
 
-于:
+on:
   schedule:
     - cron: '0 10,22 * * *' # 06:00 AM Beijing (UTC+8)
   workflow_dispatch:
